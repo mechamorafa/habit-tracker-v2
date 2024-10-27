@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.habit-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 60%;
+}
+
+button {
+    padding: 8px 12px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#completion-percentage {
+    margin-top: 15px;
+    font-weight: bold;
+}
